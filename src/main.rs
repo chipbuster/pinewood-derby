@@ -1,3 +1,5 @@
+use pinewood_derby::parser::parse;
+
 fn main() {
-    println!("Hello, world!");
+   println!("{:#?}", parse("tests/test.c"));
 }

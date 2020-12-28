@@ -3,7 +3,9 @@ Pinewood
 
 This is the documentation for the toy language of this project, Pinewood.
 
-Pinewood is like a very stripped down version of C. The only numeric type is
+### Core
+
+Pinewood is like a very stripped down version of C99. The only numeric type is
 the `int`. There are no floating point numbers and no other integral types.
 Structs are supported, as are pointer types and `void`.
 
@@ -30,3 +32,7 @@ language.
 Finally, there is special syntax for defining external events: a named
 external event can be triggered by using `<< name >>` syntax, while a named
 external event can be waited for by using `[[ ]]`.
+
+### Standard Library Declarations
+
+Since Pinewood does not support 
